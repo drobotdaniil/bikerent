@@ -1,0 +1,44 @@
+{
+  "name": "bikerent",
+  "version": "1.0.0",
+  "description": "bike rent with react, nodejs, express, mongo",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "server": "nodemon app.js",
+    "client": "cd ../client && npm run start ",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drobotdaniil/bikerent.git"
+  },
+  "keywords": [
+    "node",
+    "nodejs",
+    "react",
+    "reactjs",
+    "mongodb",
+    "mongo",
+    "redux",
+    "js"
+  ],
+  "author": "Daniil Drobot <funplacebo7@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/drobotdaniil/bikerent/issues"
+  },
+  "homepage": "https://github.com/drobotdaniil/bikerent#readme",
+  "dependencies": {
+    "bottlejs": "^1.7.2",
+    "config": "^3.3.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-validator": "^6.6.1",
+    "mongoose": "^5.9.27"
+  },
+  "devDependencies": {
+    "concurrently": "^5.2.0",
+    "nodemon": "^2.0.4"
+  }
+}
